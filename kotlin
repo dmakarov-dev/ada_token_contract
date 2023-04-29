@@ -1,0 +1,7 @@
+cardano-cli transaction build-raw \
+  --mary-era \
+  --fee 2000000 \
+  --tx-in TX_IN \
+  --tx-out "$(cat payment.addr)+0" \
+  --mint "$TOKEN_QUANTITY $POLICY_ID.$TOKEN_SYMBOL" \
+  --out-file minting.raw
