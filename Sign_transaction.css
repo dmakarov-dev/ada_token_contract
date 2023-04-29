@@ -1,0 +1,6 @@
+cardano-cli transaction sign \
+  --signing-key-file payment.skey \
+  --signing-key-file policy.skey \
+  --script-file policy.script \
+  --tx-body-file minting.raw \
+  --out-file minting.signed
