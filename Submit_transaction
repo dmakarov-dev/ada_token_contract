@@ -1,0 +1,3 @@
+cardano-cli transaction submit \
+  --tx-file minting.signed \
+  --mainnet
