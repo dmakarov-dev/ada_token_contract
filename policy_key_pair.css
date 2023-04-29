@@ -1,0 +1,3 @@
+cardano-cli address key-gen \
+  --verification-key-file policy.vkey \
+  --signing-key-file policy.skey
